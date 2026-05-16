@@ -1,0 +1,8 @@
+{
+  "name": "lite-annotate-demo-pr-proof",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node -e \"const { formatUserGreeting } = require('./src/users.js'); console.log(formatUserGreeting(999))\""
+  }
+}
