@@ -9,6 +9,7 @@ function getUserById(id) {
 
 function formatUserGreeting(id) {
   const user = getUserById(id);
+  if (!user) return 'User not found';
   return 'Welcome, ' + user.name + '!';
 }
 
